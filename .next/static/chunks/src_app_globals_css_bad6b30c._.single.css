@@ -619,6 +619,14 @@
     pointer-events: none;
   }
 
+  .invisible {
+    visibility: hidden;
+  }
+
+  .visible {
+    visibility: visible;
+  }
+
   .absolute {
     position: absolute;
   }
@@ -629,6 +637,10 @@
 
   .relative {
     position: relative;
+  }
+
+  .static {
+    position: static;
   }
 
   .sticky {
@@ -853,6 +865,10 @@
 
   .ml-auto {
     margin-left: auto;
+  }
+
+  .block {
+    display: block;
   }
 
   .flex {
