@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/purnimauyangoda/carosals/src/components/MotionImage.jsx"],"sourcesContent":["'use client';\n\nimport { motion } from 'framer-motion';\nimport Image from 'next/image';\nimport React from 'react';\n\nexport const MotionImage = ({ src, alt, layoutId }) => {\n  return (\n    <motion.div\n      className=\"w-80 h-[400px] relative rounded-lg overflow-hidden shadow-2xl border border-white/30 mb-8\"\n      layoutId={layoutId}\n      transition={{ duration: 0.8, ease: 'easeInOut' }}\n    >\n      <Image\n        src={src}\n        alt={alt}\n        fill\n        className=\"object-cover\"\n      />\n    </motion.div>\n  );\n};"],"names":[],"mappings":";;;;;AAEA;AACA;AACA;AAJA;;;;;AAMO,MAAM,cAAc,CAAC,EAAE,GAAG,EAAE,GAAG,EAAE,QAAQ,EAAE;IAChD,qBACE,8OAAC,oMAAM,CAAC,GAAG;QACT,WAAU;QACV,UAAU;QACV,YAAY;YAAE,UAAU;YAAK,MAAM;QAAY;kBAE/C,cAAA,8OAAC,wIAAK;YACJ,KAAK;YACL,KAAK;YACL,IAAI;YACJ,WAAU;;;;;;;;;;;AAIlB","debugId":null}}]
+}
