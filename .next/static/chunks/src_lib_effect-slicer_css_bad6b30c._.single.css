@@ -1,0 +1,31 @@
+/* [project]/src/lib/effect-slicer.css [app-client] (css) */
+.swiper-slicer .swiper-slide, .swiper-slicer swiper-slide {
+  overflow: hidden;
+}
+
+.swiper-slicer-image, .swiper-slicer-image-clones, .swiper-slicer-image-clone {
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.swiper-slicer-image {
+  object-fit: cover;
+  object-position: center;
+  max-width: none;
+  display: none;
+}
+
+.swiper-slicer-image-clone {
+  transition-timing-function: cubic-bezier(1, 0, .5, 1);
+  overflow: hidden;
+}
+
+.swiper-slicer-image-clone .swiper-slicer-image {
+  display: block;
+}
+
+/*# sourceMappingURL=src_lib_effect-slicer_css_bad6b30c._.single.css.map*/

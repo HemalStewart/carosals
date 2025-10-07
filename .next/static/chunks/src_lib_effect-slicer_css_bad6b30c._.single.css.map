@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/lib/effect-slicer.css"],"sourcesContent":["/**\n * UI Initiative Slicer Slider\n *\n * Images slicer slider\n *\n * https://uiinitiative.com\n *\n * Copyright 2024 UI Initiative\n *\n * Released under the UI Initiative Regular License\n *\n * October 10, 2024\n *\n */\n\n.swiper-slicer .swiper-slide,\n.swiper-slicer swiper-slide {\n  overflow: hidden;\n}\n.swiper-slicer-image, .swiper-slicer-image-clones, .swiper-slicer-image-clone {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  pointer-events: none;\n}\n.swiper-slicer-image {\n  display: none;\n  object-fit: cover;\n  object-position: center;\n  max-width: none;\n}\n.swiper-slicer-image-clone {\n  overflow: hidden;\n  transition-timing-function: cubic-bezier(1, 0, 0.5, 1);\n}\n.swiper-slicer-image-clone .swiper-slicer-image {\n  display: block;\n}"],"names":[],"mappings":"AAeA;;;;AAIA;;;;;;;;;AAQA;;;;;;;AAMA;;;;;AAIA"}}]
+}

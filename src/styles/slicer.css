@@ -1,0 +1,49 @@
+html, body, #__next, main {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  position: relative;
+}
+.slicer-slide-inner {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.slicer-slide-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 10; 
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+  z-index: 20;
+}
+.swiper-button-prev {
+  left: 20px;
+}
+.swiper-button-next {
+  right: 20px;
+}
+
+.swiper-pagination-bullet {
+  background: white;
+  opacity: 0.8;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}

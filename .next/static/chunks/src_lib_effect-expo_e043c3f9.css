@@ -1,0 +1,56 @@
+/* [project]/src/lib/effect-expo.css [app-client] (css) */
+:root {
+  --expo-image-border-radius: 16px;
+}
+
+.swiper-expo {
+  box-sizing: border-box;
+}
+
+.swiper-expo.swiper-horizontal {
+  padding-top: var(--expo-padding, 0px);
+  padding-bottom: var(--expo-padding, 0px);
+}
+
+.swiper-expo.swiper-vertical {
+  padding-left: var(--expo-padding, 0px);
+  padding-right: var(--expo-padding, 0px);
+}
+
+.swiper-expo .expo-container {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  border-radius: var(--expo-image-border-radius, 0px);
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-expo .expo-content {
+  height: 100%;
+  position: relative;
+}
+
+.swiper-expo .expo-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.swiper-expo.swiper-horizontal .expo-image {
+  left: calc((var(--expo-image-offset) * 100% - 100%) / -2);
+  width: calc(var(--expo-image-offset) * 100%);
+  height: 100%;
+  top: 0;
+}
+
+.swiper-expo.swiper-vertical .expo-image {
+  top: calc((var(--expo-image-offset) * 100% - 100%) / -2);
+  height: calc(var(--expo-image-offset) * 100%);
+  width: 100%;
+  left: 0;
+}
+
+/*# sourceMappingURL=src_lib_effect-expo_e043c3f9.css.map*/

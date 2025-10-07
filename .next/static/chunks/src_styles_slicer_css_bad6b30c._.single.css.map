@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/styles/slicer.css"],"sourcesContent":["html, body, #__next, main {\n  height: 100%;\n  margin: 0;\n  padding: 0;\n}\n.swiper {\n  width: 100%;\n  height: 100%;\n}\n.swiper-slide {\n  position: relative;\n}\n.slicer-slide-inner {\n  width: 100%;\n  height: 100%;\n  background-size: cover;\n  background-position: center;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: white;\n}\n.slicer-slide-content {\n  background: rgba(0, 0, 0, 0.5);\n  padding: 20px;\n  border-radius: 10px;\n  text-align: center;\n  z-index: 10; \n}\n\n.swiper-button-prev,\n.swiper-button-next {\n  color: white;\n  z-index: 20;\n}\n.swiper-button-prev {\n  left: 20px;\n}\n.swiper-button-next {\n  right: 20px;\n}\n\n.swiper-pagination-bullet {\n  background: white;\n  opacity: 0.8;\n}\n.swiper-pagination-bullet-active {\n  opacity: 1;\n}"],"names":[],"mappings":"AAAA;;;;;;AAKA;;;;;AAIA;;;;AAGA;;;;;;;;;;;AAUA;;;;;;;;AAQA;;;;;AAKA;;;;AAGA;;;;AAIA;;;;;AAIA"}}]
+}
