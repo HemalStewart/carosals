@@ -1,0 +1,35 @@
+/* [project]/src/styles/triple-slider.css [app-client] (css) */
+.triple-slider {
+  perspective: 1200px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.triple-slider .triple-slider-main {
+  z-index: 10;
+  position: relative;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+.triple-slider .triple-slider-prev, .triple-slider .triple-slider-next {
+  opacity: .25;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+}
+
+.triple-slider .triple-slider-prev {
+  right: 50%;
+  transform: translateY(-50%)scale(.75)rotateY(10deg);
+}
+
+.triple-slider .triple-slider-next {
+  left: 50%;
+  transform: translateY(-50%)scale(.75)rotateY(-10deg);
+}
+
+/*# sourceMappingURL=src_styles_triple-slider_css_bad6b30c._.single.css.map*/

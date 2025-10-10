@@ -1,0 +1,80 @@
+/* [project]/src/styles/main.css [app-client] (css) */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #26213d;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+#app {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.triple-slider {
+  padding: 32px 0;
+}
+
+.triple-slider .swiper {
+  border-radius: 8px;
+  width: 90%;
+  max-width: 640px;
+  height: 320px;
+}
+
+.triple-slider .bg-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.triple-slider .logo-image {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+}
+
+.triple-slider .logo-image-1 {
+  width: 310px;
+  margin-left: -155px;
+}
+
+.triple-slider .logo-image-2 {
+  width: 146px;
+  margin-left: -73px;
+}
+
+.triple-slider .logo-image-3 {
+  width: 262px;
+  margin-left: -131px;
+}
+
+.triple-slider .logo-image-4 {
+  width: 196px;
+  margin-left: -98px;
+}
+
+.triple-slider .logo-image-5 {
+  width: 320px;
+  margin-left: -160px;
+}
+
+@media (max-width: 480px) {
+  .triple-slider .logo-image {
+    width: 160px;
+    margin-left: -80px;
+  }
+}
+
+/*# sourceMappingURL=src_styles_main_css_bad6b30c._.single.css.map*/

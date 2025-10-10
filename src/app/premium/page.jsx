@@ -1,6 +1,7 @@
 import MaterialSlider from '@/components/MaterialSlider';
 import SlicerCarousel from '@/components/SlicerCarousel';
 import ExpoSliderPremium from '@/components/ExpoSliderPremium';
+import TripleSlider from '../../components/TripleSlider';
 
 const slidesData = [
   { image: '/images/Poster1.jpg', title: 'Confidence', text: 'Confidence is the best outfit. Wear it and own it!' },
@@ -17,7 +18,8 @@ export default function Home() {
     <main className="flex justify-center items-center min-h-screen bg-gray-100">
       {/* <MaterialSlider /> */}
       {/* <SlicerCarousel slides={slidesData} /> */}
-      <ExpoSliderPremium slides={slidesData} />
+      {/* <ExpoSliderPremium slides={slidesData} /> */}
+      <TripleSlider />
     </main>
   );
 }
